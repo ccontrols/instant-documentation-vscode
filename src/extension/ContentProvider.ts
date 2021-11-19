@@ -93,8 +93,7 @@ export class ContentProvider {
         null,
         this.context.subscriptions,
       );
-      panel.onDidChangeViewState(({ webviewPanel, ...rest }) => {
-        console.log(rest);
+      panel.onDidChangeViewState(({ webviewPanel }) => {
         this.setPreviewActiveContext(
           webviewPanel.active ? sourceUri : undefined,
         );
