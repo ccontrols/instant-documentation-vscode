@@ -21,54 +21,56 @@ const renderNode = (props: {
   inTree: boolean;
   key?: string;
 }): React.ReactNode => {
-  const { node, inTree } = props;
+  const { node, inTree, key } = props;
   if (isHeadingNode(node)) {
     switch (node.depth) {
       case 1:
-        return <h1>{nodeContent(props)}</h1>;
+        return <h1 key={key}>{nodeContent(props)}</h1>;
       case 2:
-        return <h2>{nodeContent(props)}</h2>;
+        return <h2 key={key}>{nodeContent(props)}</h2>;
       case 3:
-        return <h3>{nodeContent(props)}</h3>;
+        return <h3 key={key}>{nodeContent(props)}</h3>;
       case 4:
-        return <h4>{nodeContent(props)}</h4>;
+        return <h4 key={key}>{nodeContent(props)}</h4>;
     }
   } else if (isParagraphNode(node)) {
-    return <p>{nodeContent(props)}</p>;
+    return <p key={key}>{nodeContent(props)}</p>;
   } else if (isBlockNode(node) && node.children) {
-    return <div>{nodeContent(props)}</div>;
+    return <div key={key}>{nodeContent(props)}</div>;
   } else if (isBoldNode(node)) {
-    return <b>{nodeContent(props)}</b>;
+    return <b key={key}>{nodeContent(props)}</b>;
   } else if (isEmphasisNode(node)) {
-    return <em>{nodeContent(props)}</em>;
+    return <em key={key}>{nodeContent(props)}</em>;
   } else if (isCollapsibleNode(node)) {
     const content = (
-      <>
-        <fast-tree-item>
-          {node.summary.map((item, idx) => {
-            return renderNode({
-              node: item,
-              key: `summary_${idx}`,
-              inTree: true,
-            });
-          })}
+      <fast-tree-item key={key}>
+        {node.summary.map((item, idx) => {
+          return renderNode({
+            node: item,
+            key: `summary_${idx}`,
+            inTree: true,
+          });
+        })}
 
-          {node.children.map((item, idx) => {
-            const node = renderNode({
-              node: item,
-              inTree: true,
-              key: `item_${idx}`,
-            });
-            return !isCollapsibleNode(item) ? (
-              <fast-tree-item key={`item_${idx}`}>{node}</fast-tree-item>
-            ) : (
-              node
-            );
-          })}
-        </fast-tree-item>
-      </>
+        {node.children.map((item, idx) => {
+          const node = renderNode({
+            node: item,
+            inTree: true,
+            key: `item_${idx}`,
+          });
+          return !isCollapsibleNode(item) ? (
+            <fast-tree-item key={`item_${idx}`}>{node}</fast-tree-item>
+          ) : (
+            node
+          );
+        })}
+      </fast-tree-item>
     );
-    return inTree ? content : <fast-tree-view>{content}</fast-tree-view>;
+    return inTree ? (
+      content
+    ) : (
+      <fast-tree-view key={key}>{content}</fast-tree-view>
+    );
   } else if (isLinkNode(node)) {
     return (
       <a
@@ -86,12 +88,13 @@ const renderNode = (props: {
             });
           }
         }}
+        key={key}
       >
         {nodeContent(props)}
       </a>
     );
   } else if (isInlineCodeNode(node)) {
-    return <code>{nodeContent(props)}</code>;
+    return <code key={key}>{nodeContent(props)}</code>;
   } else if (isCodeNode(node)) {
     return (
       <pre
@@ -100,6 +103,7 @@ const renderNode = (props: {
           margin: 0,
           padding: '0.2em',
         }}
+        key={key}
       >
         {nodeContent(props)}
       </pre>
@@ -112,6 +116,7 @@ const renderNode = (props: {
         grid-template-columns={node.children[0].children
           .map(() => '1fr')
           .join(' ')}
+        key={key}
       >
         <vscode-data-grid-row row-type="header">
           {node.children[0].children?.map((cell, idx) => (
