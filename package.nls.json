@@ -1,0 +1,6 @@
+{
+  "displayName": "Instant Documentation",
+  "description": "Instant documentation vscode extension",
+  "instant-documentation.openPreview.title": "Instant Documentation",
+  "instant-documentation.refresh.title": "Refresh Documentation"
+}
