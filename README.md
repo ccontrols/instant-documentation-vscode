@@ -13,7 +13,7 @@
 
 A VSCode extension that will show on-the-fly documentation for typescript and javascript files
 
-![main screen](https://github.com/ccontrols/instant-documentation-vscode/main-screen.jpg)
+![main screen](https://raw.githubusercontent.com/ccontrols/instant-documentation-vscode/master/main-screen.jpg)
 
 ## Installation in VS Code
 
@@ -29,7 +29,7 @@ Open vscode, run Extension: Install from VSIX, then choose the \_.vsix file you 
 ## VSCode Settings
 
 You can go to the **Preferences/Settings/Extensions** is VSCode and then select the **Instant Documentation** tab.
-![settings](https://github.com/ccontrols/instant-documentation-vscode/settings.jpg)
+![settings](https://raw.githubusercontent.com/ccontrols/instant-documentation-vscode/master/settings.jpg)
 
 ## Configuration file
 
