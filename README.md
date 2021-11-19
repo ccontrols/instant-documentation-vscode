@@ -13,7 +13,7 @@
 
 A VSCode extension that will show on-the-fly documentation for typescript and javascript files
 
-![main screen](https://raw.githubusercontent.com/ccontrols/instant-documentation-vscode/master/main-screen.jpg)
+![main screen](https://raw.githubusercontent.com/ccontrols/instant-documentation-vscode/master/demo.gif)
 
 ## Installation in VS Code
 
