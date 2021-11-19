@@ -23,7 +23,7 @@ Open VSCode, search for `instant-documentation-vscode` in Extensions, and then c
 
 ### Install from GitHub
 
-Download `instant-documentation-vscode-x.xx.x.vsix` file from [Releases](https://github.com/ccontrols/instant-documentation-vscode/releases).
+Download `instant-documentation-vscode-x.xx.x.vsix` file from [Releases](https://github.com/ccontrols/instant-documentation-vscode/tree/master/releases).
 Open vscode, run Extension: Install from VSIX, then choose the \_.vsix file you just downloaded.
 
 ## VSCode Settings
