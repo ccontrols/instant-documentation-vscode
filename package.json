@@ -2,7 +2,7 @@
   "name": "instant-documentation-vscode",
   "publisher": "atanasster",
   "private": true,
-  "version": "0.9.3",
+  "version": "0.9.4",
   "description": "Preview instant documentation for typescript and jsdoc files",
   "keywords": [
     "instant documentation",
@@ -48,10 +48,10 @@
   "license": "MIT",
   "dependencies": {
     "@microsoft/fast-components": "^2.16.3",
-    "@structured-types/api": "^3.36.0",
-    "@structured-types/api-docs": "^3.36.1",
-    "@structured-types/prop-types-plugin": "^3.36.0",
-    "@structured-types/react-plugin": "^3.36.0",
+    "@structured-types/api": "^3.36.2",
+    "@structured-types/api-docs": "^3.36.2",
+    "@structured-types/prop-types-plugin": "^3.36.2",
+    "@structured-types/react-plugin": "^3.36.2",
     "@vscode/webview-ui-toolkit": "^0.8.4",
     "deepmerge": "^4.2.2",
     "inherits": "^2.0.4",
