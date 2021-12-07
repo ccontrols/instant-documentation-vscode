@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { VSCodeAPI } from './VSCodeApi';
 import { renderNodes } from './nodeToReact';
-import { DocumentationNode } from '@structured-types/api-docs/types';
+import { DocumentationNode } from '@structured-types/api-docs/dist/types';
 import { Flex } from './components/Flex';
 
 export const App: React.FC = () => {

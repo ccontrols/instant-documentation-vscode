@@ -450,10 +450,10 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@structured-types/api-docs@^3.36.2":
-  version "3.36.2"
-  resolved "https://registry.yarnpkg.com/@structured-types/api-docs/-/api-docs-3.36.2.tgz#e097450c595f5697a1ae8a1094cf01dfa824b8d4"
-  integrity sha512-K2v2KyvnsJ74S7/XceJZIXDODntgi2VPEE3p3a4E/nGHYfAS6XCb+dQvjVgTePgAciVuHqZylI8ZSq8hfKI5hA==
+"@structured-types/api-docs@^3.37.0":
+  version "3.37.0"
+  resolved "https://registry.yarnpkg.com/@structured-types/api-docs/-/api-docs-3.37.0.tgz#58e81be839d7e955dcb4e8c1b36b0ae5f3c6a28e"
+  integrity sha512-GaIl9PnN+t7UyH/1Ccsd/qlXh668xbD1IcRHSUnIPWJplljdxVIp9bRMOgBR39MiJ7cgbOeEHrCL3aAk4wce2A==
   dependencies:
     "@hutson/parse-repository-url" "^5.0.0"
     cosmiconfig "^7.0.1"
@@ -463,33 +463,32 @@
     js-string-escape "^1.0.1"
     micromatch "^4.0.4"
 
-"@structured-types/api@^3.36.2":
-  version "3.36.2"
-  resolved "https://registry.yarnpkg.com/@structured-types/api/-/api-3.36.2.tgz#ef40dbe5a3dae6ba77dc7fcb737fca2f6fa7f55e"
-  integrity sha512-R9GzBFok0/UnSHCR8u7c7a/0TfNKiryqiYzl0hfkUcvh1TyTAMDyhPInI5LWZHV+/KNe22qan5O/7/A9w7LyRQ==
+"@structured-types/api@^3.37.0":
+  version "3.37.0"
+  resolved "https://registry.yarnpkg.com/@structured-types/api/-/api-3.37.0.tgz#83bae469470b54ae98d800bbd13c0e20e56a39b9"
+  integrity sha512-3iAVAT6XfoE3oJYOK6hEeG69eaLN5NeNfcvELaGSWhKzmSBFMTI5ZSLoNmzk4hJ8yOosC3YlGqvcoQi6er8Zmg==
   dependencies:
-    "@structured-types/typescript-config" "^3.36.0"
+    "@structured-types/typescript-config" "^3.37.0"
     deepmerge "^4.2.2"
-    path-browserify "^1.0.1"
 
-"@structured-types/prop-types-plugin@^3.36.2":
-  version "3.36.2"
-  resolved "https://registry.yarnpkg.com/@structured-types/prop-types-plugin/-/prop-types-plugin-3.36.2.tgz#607e0a749ec0f6c3142dd59fe78f61cc55055b7b"
-  integrity sha512-mE2T2fDj7QjUskMs6IjzRHWFSkYhMaWfbJUgA+Grl62mlzIfbWYmAfeJWXZE5hby6jUYkEDFd0ooYkyysueTlA==
+"@structured-types/prop-types-plugin@^3.37.0":
+  version "3.37.0"
+  resolved "https://registry.yarnpkg.com/@structured-types/prop-types-plugin/-/prop-types-plugin-3.37.0.tgz#28f4f19da210fbf3450867865f8063086a2282fb"
+  integrity sha512-I+icZHEcK6oJYiJYBXaKb6m1nQ7CKd1WnDzfjwLlCYodlUNbUazhUYQlJXtZzfKWPzUUWYaEfgCPkUgF5JfzXQ==
   dependencies:
-    "@structured-types/react-plugin" "^3.36.2"
+    "@structured-types/react-plugin" "^3.37.0"
 
-"@structured-types/react-plugin@^3.36.2":
-  version "3.36.2"
-  resolved "https://registry.yarnpkg.com/@structured-types/react-plugin/-/react-plugin-3.36.2.tgz#8d3c6405e3c753b11a8384bbc30b5cdbc436268c"
-  integrity sha512-L+bnlWrQ92969GXsmLAld9J70WBCKRkWom0PIkDUVZl9cDOLjOfYUHZWPNmmRqr7ANkeJlwpe9tGlIkk4nk3fA==
+"@structured-types/react-plugin@^3.37.0":
+  version "3.37.0"
+  resolved "https://registry.yarnpkg.com/@structured-types/react-plugin/-/react-plugin-3.37.0.tgz#58703e215f495c6b5d9cdca8d9dc691373fd7817"
+  integrity sha512-KJQ9nHhmbDk9pMphkC+9JqCs23Z05b/41J0YUKEAHa4pHlZF0fFPYQqeHgxbO9wa4k94swe7NuVBRR79vN3GmA==
   dependencies:
-    "@structured-types/api" "^3.36.2"
+    "@structured-types/api" "^3.37.0"
 
-"@structured-types/typescript-config@^3.36.0":
-  version "3.36.0"
-  resolved "https://registry.yarnpkg.com/@structured-types/typescript-config/-/typescript-config-3.36.0.tgz#ee9e53301be7980f4da48a6a1daabc6f99f4bd5c"
-  integrity sha512-I7QwHu6JcJWC63OJJ/nP514PNUmvzONyfWLT+fSAnI9nT62j39L5nOavhBDbeEiPmgCeLQH7ikTaJwWpi9MVqA==
+"@structured-types/typescript-config@^3.37.0":
+  version "3.37.0"
+  resolved "https://registry.yarnpkg.com/@structured-types/typescript-config/-/typescript-config-3.37.0.tgz#cc76f04a7524e19a6b5e6b3cd119b21a0626e66b"
+  integrity sha512-8oZ3sZ4jAu2cWGOKYZfrfEI8eg8cimnexawsNVKJCSsax5KCaCYbXxcd0X7sOtToLIfKn19GNYhx7hhz9ul9Yw==
   dependencies:
     deepmerge "^4.2.2"
 
@@ -2145,11 +2144,6 @@ parse-json@^5.0.0:
     error-ex "^1.3.1"
     json-parse-even-better-errors "^2.3.0"
     lines-and-columns "^1.1.6"
-
-path-browserify@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/path-browserify/-/path-browserify-1.0.1.tgz#d98454a9c3753d5790860f16f68867b9e46be1fd"
-  integrity sha512-b7uo2UCUOYZcnF/3ID0lulOJi/bafxa1xPe7ZPsammBSpjSWQkjNxlt635YGS2MiR9GjvuXCtz2emr3jbsz98g==
 
 path-exists@^4.0.0:
   version "4.0.0"

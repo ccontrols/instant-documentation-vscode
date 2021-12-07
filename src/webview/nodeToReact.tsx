@@ -14,7 +14,7 @@ import {
   isHeadingNode,
   isBlockNode,
   isCollapsibleNode,
-} from '@structured-types/api-docs/types';
+} from '@structured-types/api-docs/dist/types';
 import { VSCodeAPI } from './VSCodeApi';
 const renderNode = (props: {
   node: DocumentationNode;

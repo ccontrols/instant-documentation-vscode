@@ -2,7 +2,7 @@
   "name": "instant-documentation-vscode",
   "publisher": "atanasster",
   "private": true,
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "Preview instant documentation for typescript and jsdoc files",
   "keywords": [
     "instant documentation",
@@ -35,6 +35,7 @@
     "lint": "yarn eslint . --ext ts,tsx",
     "fix": "yarn lint --fix",
     "package": "vsce package --out releases",
+    "publish": "vsce publish",
     "clean": "rimraf dist coverage"
   },
   "homepage": "https://github.com/ccontrols/instant-documentation-vscode",
@@ -48,10 +49,10 @@
   "license": "MIT",
   "dependencies": {
     "@microsoft/fast-components": "^2.16.3",
-    "@structured-types/api": "^3.36.2",
-    "@structured-types/api-docs": "^3.36.2",
-    "@structured-types/prop-types-plugin": "^3.36.2",
-    "@structured-types/react-plugin": "^3.36.2",
+    "@structured-types/api": "^3.37.0",
+    "@structured-types/api-docs": "^3.37.0",
+    "@structured-types/prop-types-plugin": "^3.37.0",
+    "@structured-types/react-plugin": "^3.37.0",
     "@vscode/webview-ui-toolkit": "^0.8.4",
     "deepmerge": "^4.2.2",
     "inherits": "^2.0.4",
