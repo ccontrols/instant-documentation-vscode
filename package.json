@@ -35,7 +35,7 @@
     "lint": "yarn eslint . --ext ts,tsx",
     "fix": "yarn lint --fix",
     "package": "vsce package --out releases",
-    "publish": "vsce publish",
+    "marketplace": "vsce publish",
     "clean": "rimraf dist coverage"
   },
   "homepage": "https://github.com/ccontrols/instant-documentation-vscode",
