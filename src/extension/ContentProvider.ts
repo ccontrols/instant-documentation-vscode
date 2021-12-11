@@ -27,11 +27,12 @@ export class ContentProvider {
     );
   }
   render(fileName: string, panel: vscode.WebviewPanel): void {
-    const nodes = extractProps(fileName, this.config);
-    panel.webview.postMessage(nodes);
+    extractProps(fileName, this.config).then((nodes) =>
+      panel.webview.postMessage(nodes),
+    );
   }
 
-  private updateProps(uri: vscode.Uri): void {
+  private async updateProps(uri: vscode.Uri): Promise<void> {
     const { panel, viewColumn } = this.getPreview(uri) || {};
     if (panel) {
       panel.webview.html = this.getHtml(panel, uri);
