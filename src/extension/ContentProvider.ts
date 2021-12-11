@@ -1,4 +1,4 @@
-import * as path from 'path';
+import * as path from 'path-browserify';
 import * as vscode from 'vscode';
 import { extractProps } from './extract-props';
 import { getNonce, openLocation } from './utils';
