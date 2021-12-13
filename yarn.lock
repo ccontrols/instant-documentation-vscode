@@ -450,10 +450,10 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@structured-types/api-docs@^3.39.1":
-  version "3.39.1"
-  resolved "https://registry.yarnpkg.com/@structured-types/api-docs/-/api-docs-3.39.1.tgz#e43d38f5b4d7d2910fab9a3e4ec4d71fac749bfc"
-  integrity sha512-AjCj2WSS+8+I+C8s+Ul6wupvPUjWl8bHSidm6qZS4+aexlGsbfGwv5mgkf/QGPqUapX9YTnrypZzvRakjkGa6A==
+"@structured-types/api-docs@^3.39.2":
+  version "3.39.2"
+  resolved "https://registry.yarnpkg.com/@structured-types/api-docs/-/api-docs-3.39.2.tgz#5477f0a5a4478f8c9dc4a8cd79e4b1e483be36f8"
+  integrity sha512-AK0ty5jy4m7tWlw3vror3M9qbQi5vDnOSZIZqNFwApvwGpubysmAwASB8HBNq1L95uj9xIshGa58toTzabtrbA==
   dependencies:
     "@hutson/parse-repository-url" "^5.0.0"
     deepmerge "^4.2.2"

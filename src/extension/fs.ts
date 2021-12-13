@@ -36,4 +36,12 @@ export const getFS = (file: string): STFS => ({
     );
     return workspace ? workspace.uri.path : '/';
   },
+  isDirectory: async (path: string): Promise<boolean> => {
+    try {
+      const fstat = await vscode.workspace.fs.stat(vscode.Uri.file(path));
+      return fstat.type === vscode.FileType.Directory;
+    } catch (e) {
+      return false;
+    }
+  },
 });
