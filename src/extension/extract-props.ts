@@ -14,7 +14,7 @@ export const extractProps = async (
   fileName: string,
   options: DocsOptions & DocumentationOptions = {},
 ): Promise<DocumentationNode[]> => {
-  const { config } = apiDocsConfig(fileName) || {};
+  const { config } = (await apiDocsConfig(fileName)) || {};
   const mergedConfig = mergeConfig(config, options);
   const props = parseFiles([fileName], {
     collectSourceInfo: true,
@@ -36,7 +36,24 @@ export const extractProps = async (
       },
       fileExists: async (filePath: string): Promise<boolean> => {
         const fstat = await vscode.workspace.fs.stat(vscode.Uri.file(filePath));
-        return fstat.type === vscode.FileType.File;
+        return (
+          fstat.type === vscode.FileType.File ||
+          fstat.type === vscode.FileType.Directory
+        );
+      },
+      readFile: async (filePath: string): Promise<string | null> => {
+        return await vscode.workspace.fs
+          .readFile(vscode.Uri.file(filePath))
+          .toString();
+      },
+      cwd: (): string | undefined => {
+        const tasks = vscode.tasks.taskExecutions;
+        if (tasks.length && tasks[0].task.execution) {
+          const taskExecution = tasks[0].task.execution;
+          if ('options' in taskExecution) {
+            return taskExecution.options.cwd;
+          }
+        }
       },
     },
   });
