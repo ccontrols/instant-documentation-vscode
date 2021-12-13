@@ -2,7 +2,7 @@
   "name": "instant-documentation-vscode",
   "publisher": "atanasster",
   "private": true,
-  "version": "0.9.15",
+  "version": "0.9.16",
   "description": "Preview instant documentation for typescript and jsdoc files",
   "keywords": [
     "instant documentation",
