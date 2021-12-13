@@ -31,9 +31,11 @@ export const getFS = (file: string): STFS => ({
     }
   },
   cwd: (): string | undefined => {
+    console.log(vscode.workspace);
     const workspace = vscode.workspace.getWorkspaceFolder(
       vscode.Uri.file(file),
     );
-    return workspace.uri.path;
+    console.log(workspace, workspace.uri);
+    return workspace.uri ? workspace.uri.path : workspace.name;
   },
 });
