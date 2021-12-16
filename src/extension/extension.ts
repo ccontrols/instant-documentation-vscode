@@ -32,8 +32,9 @@ export function activate(context: vscode.ExtensionContext): void {
   context.subscriptions.push(
     vscode.window.onDidChangeActiveTextEditor((textEditor) => {
       if (
+        !vscode.window.activeTextEditor ||
         textEditor?.document.uri.fsPath ===
-        vscode.window.activeTextEditor.document.uri.fsPath
+          vscode.window.activeTextEditor.document.uri.fsPath
       ) {
         if (isDocumentableFile(textEditor.document)) {
           const sourceUri = textEditor.document.uri;

@@ -450,10 +450,10 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@structured-types/api-docs@^3.39.4":
-  version "3.39.4"
-  resolved "https://registry.yarnpkg.com/@structured-types/api-docs/-/api-docs-3.39.4.tgz#8f42eaada28ce8e419fecffd331121fb9477e0b2"
-  integrity sha512-i/cuToUInO/PsXGuh51chwx8F3e+N+XS0xCx8WSr+zMsz6ODXbTb+XLL8V3sEvI+2EeDiErVUUSCxhYvNPAEYw==
+"@structured-types/api-docs@^3.39.5":
+  version "3.39.5"
+  resolved "https://registry.yarnpkg.com/@structured-types/api-docs/-/api-docs-3.39.5.tgz#635cdafe761bcbf373d1c501f915630d573595d1"
+  integrity sha512-NXxuC8O6CpcXp/GXOvFwhhmhHS9vy3WBXiOxS2YO1d3R/sMw50k62jwIU796htp0rlbd5xIBI85C51kZxOWTqQ==
   dependencies:
     "@hutson/parse-repository-url" "^5.0.0"
     deepmerge "^4.2.2"
@@ -463,33 +463,33 @@
     micromatch "^4.0.4"
     path-browserify "^1.0.1"
 
-"@structured-types/api@^3.39.4":
-  version "3.39.4"
-  resolved "https://registry.yarnpkg.com/@structured-types/api/-/api-3.39.4.tgz#075b485f9b5e8d980454e4e5aa1b5d5313993ada"
-  integrity sha512-/z3KxF55o8tt++9u2jtk/YJKH6aP8UUXmHLMi0yAp9ZwJ9pFgNI+NMPN8BDwTAgUE2prJDVnCVeXHkLyy9bdOA==
+"@structured-types/api@^3.39.5":
+  version "3.39.5"
+  resolved "https://registry.yarnpkg.com/@structured-types/api/-/api-3.39.5.tgz#4ebf3cc7e508c0ea80747026525e38e267a6b84e"
+  integrity sha512-oEmOwtpywiBXuF42IxRjr38/1JgtvXRx4sR+ZYmqU1B7DRGufEoVvzzjFfKO8vk+5q7LhW9WG56ED2E9P7M1+g==
   dependencies:
-    "@structured-types/typescript-config" "^3.39.4"
+    "@structured-types/typescript-config" "^3.39.5"
     deepmerge "^4.2.2"
     path-browserify "^1.0.1"
 
-"@structured-types/prop-types-plugin@^3.39.4":
-  version "3.39.4"
-  resolved "https://registry.yarnpkg.com/@structured-types/prop-types-plugin/-/prop-types-plugin-3.39.4.tgz#ab488c3db255ebbba271d661061117972f3fba3d"
-  integrity sha512-fzJ9VAqctMlre8+Y93VzWfft2yyiVSaJqlAs8H9JDGsr4hZORxjnxO459e0hagjNXiHUCVoHBpIx07fN52McrA==
+"@structured-types/prop-types-plugin@^3.39.5":
+  version "3.39.5"
+  resolved "https://registry.yarnpkg.com/@structured-types/prop-types-plugin/-/prop-types-plugin-3.39.5.tgz#e229010f2214688003132d306e04233bffa0f43b"
+  integrity sha512-9yG1shF46ZdRfUlMRriUL7B22guEJnDw0AH9KEJ8THwJkGccPgn8pD98TlRywfi8IgQThYciXKCjOanWgvYZ/A==
   dependencies:
-    "@structured-types/react-plugin" "^3.39.4"
+    "@structured-types/react-plugin" "^3.39.5"
 
-"@structured-types/react-plugin@^3.39.4":
-  version "3.39.4"
-  resolved "https://registry.yarnpkg.com/@structured-types/react-plugin/-/react-plugin-3.39.4.tgz#75a9841580a5ba7fc48743c5ef758cdda2541a62"
-  integrity sha512-En4uekYnSS3dzPgijgMnjfgH2poa9MxdpQYLS4+Q8QU73JI6N3IHflL3IzBZnEUaEjhyQZXswvKeO+FGPDJujA==
+"@structured-types/react-plugin@^3.39.5":
+  version "3.39.5"
+  resolved "https://registry.yarnpkg.com/@structured-types/react-plugin/-/react-plugin-3.39.5.tgz#fe6d08c62627d348ca78d8f010b6a784845c5125"
+  integrity sha512-wMQR6lEVnxxwhMtqRM/flfXD5+mZ5zeazO1wlxYjJeHlWHgfRu78+3aVTt1Hvuqer42MLdzKZ+rZEg4xTYGBwQ==
   dependencies:
-    "@structured-types/api" "^3.39.4"
+    "@structured-types/api" "^3.39.5"
 
-"@structured-types/typescript-config@^3.39.4":
-  version "3.39.4"
-  resolved "https://registry.yarnpkg.com/@structured-types/typescript-config/-/typescript-config-3.39.4.tgz#8f64b006e4e783547f7b87ec2585b9ce578c9a1a"
-  integrity sha512-1I+GnRcq7pVp0K4iAScpZG8bVmQ8hXKbhiSMQ4qwnbJ8Nu+hQTLNJODEklhTXByZed/t5ZIjc5HMspGAShOcNQ==
+"@structured-types/typescript-config@^3.39.5":
+  version "3.39.5"
+  resolved "https://registry.yarnpkg.com/@structured-types/typescript-config/-/typescript-config-3.39.5.tgz#73d698e13a31dee43dff0b2b7c67da8e8c6886a7"
+  integrity sha512-HllQ84Sg0sDx2rHKGa2jjPQIL5hQv5WIwp84A28vtEAhgyIfE5wKvVW6DOeAO/tlUpJuHDVF/a2JDOoOqzHcug==
   dependencies:
     deepmerge "^4.2.2"
     path-browserify "^1.0.1"
