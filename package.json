@@ -1,15 +1,17 @@
 {
   "name": "instant-documentation-vscode",
+  "displayName": "Instant Documentation",
   "publisher": "atanasster",
   "private": true,
-  "version": "0.9.20",
-  "description": "Preview instant documentation for typescript and jsdoc files",
+  "version": "0.9.21",
+  "description": "Preview instant documentation for typescript and jsdoc and react files",
   "keywords": [
     "instant documentation",
     "structured types",
     "vscode",
     "jsdoc",
-    "typescript"
+    "typescript",
+    "react"
   ],
   "engines": {
     "vscode": "^1.50.0"
@@ -50,6 +52,8 @@
     "url": "https://github.com/ccontrols/instant-documentation-vscode.git"
   },
   "license": "MIT",
+  "readme": "./README.md",
+  "icon": "logo.instadoc.png",
   "dependencies": {
     "@microsoft/fast-components": "^2.16.3",
     "@structured-types/api": "^3.39.6",
