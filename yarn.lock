@@ -450,10 +450,10 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@structured-types/api-docs@^3.39.6":
-  version "3.39.6"
-  resolved "https://registry.yarnpkg.com/@structured-types/api-docs/-/api-docs-3.39.6.tgz#c9e86a5a50df32066e56670c5700c4720cabcbde"
-  integrity sha512-tY3l9v47QAh/Fo4h9DmB9lz59wMT7m9hZV5F4/wa5muy8Qy4T72NP9Te0P9Gny74PrL7beWYIdY+PWUOIHDHYw==
+"@structured-types/api-docs@^3.40.0":
+  version "3.40.0"
+  resolved "https://registry.yarnpkg.com/@structured-types/api-docs/-/api-docs-3.40.0.tgz#eaac5cf449cc3ae95e76a8865d10f02905fb693e"
+  integrity sha512-z7hXRHOOdVssniUS5AIDZTxP7YPqXKAwQuiVxGPpEKdk1MugquZ9ZraotDjCgJVjdkjaSOJvWKTXoYUZTvl3eA==
   dependencies:
     "@hutson/parse-repository-url" "^5.0.0"
     deepmerge "^4.2.2"
@@ -463,33 +463,33 @@
     micromatch "^4.0.4"
     path-browserify "^1.0.1"
 
-"@structured-types/api@^3.39.6":
-  version "3.39.6"
-  resolved "https://registry.yarnpkg.com/@structured-types/api/-/api-3.39.6.tgz#d85e103e9c9005f0aafc0128da182b4d3dcafa87"
-  integrity sha512-Pfni0kaTg5jAqA6tsZys86Cjb38quXmarVaagruuPC1vK9H/fkW5PgH6rcRu7AbbUIcc72WhUsEgdzrlRHWLaQ==
+"@structured-types/api@^3.40.0":
+  version "3.40.0"
+  resolved "https://registry.yarnpkg.com/@structured-types/api/-/api-3.40.0.tgz#874bf3e6aa058f0d491f307b20946e21fefb815e"
+  integrity sha512-+QuVjVdcl762V24CdMf8o5KIb0UXSFnrxZhZVn0TSU/IPOxpF228oZYMU9UkpX7hhSdSHNmVjrr5sQ6TKfPdQQ==
   dependencies:
-    "@structured-types/typescript-config" "^3.39.6"
+    "@structured-types/typescript-config" "^3.40.0"
     deepmerge "^4.2.2"
     path-browserify "^1.0.1"
 
-"@structured-types/prop-types-plugin@^3.39.6":
-  version "3.39.6"
-  resolved "https://registry.yarnpkg.com/@structured-types/prop-types-plugin/-/prop-types-plugin-3.39.6.tgz#c71e26e0978b3e396e8bca127e19be96ec7874d1"
-  integrity sha512-CZfaf8lWg2FGCnOdZpKmzN6HYF9nv32VvlzlxMQqUJlpql4kGMZroxFE+MIc2QTe8lAMn+nYuPPgzSj3ihb9Sg==
+"@structured-types/prop-types-plugin@^3.40.0":
+  version "3.40.0"
+  resolved "https://registry.yarnpkg.com/@structured-types/prop-types-plugin/-/prop-types-plugin-3.40.0.tgz#4e40e377b54f05c2c6eb23df9ca67d094420cddf"
+  integrity sha512-9yjzzUubp1qr1blHKl4pCFdUDtrfWK3gUd4ed8k2BXrBld8fcnMhV4nyNiXjPyyD6hplUgXxsrTb7cRF7o3D7w==
   dependencies:
-    "@structured-types/react-plugin" "^3.39.6"
+    "@structured-types/react-plugin" "^3.40.0"
 
-"@structured-types/react-plugin@^3.39.6":
-  version "3.39.6"
-  resolved "https://registry.yarnpkg.com/@structured-types/react-plugin/-/react-plugin-3.39.6.tgz#91ed48942d1e8ea0b7ff1295291b826e41a6153e"
-  integrity sha512-kxz/HjQDLLkTU6Al07RRM7u9yyjA3Jw3CU33puZqHn/lCDmlb5yIAtz+EjgAA86BPnMMfhNVF/pvV+m+JRk/Tw==
+"@structured-types/react-plugin@^3.40.0":
+  version "3.40.0"
+  resolved "https://registry.yarnpkg.com/@structured-types/react-plugin/-/react-plugin-3.40.0.tgz#b670a64e4de9318275e7468a4871eaa8b7332ad1"
+  integrity sha512-MnIZV78mjRuVUrYbMSBwkv9hCGSrs0eFGGiZeu7FIzE9TWeN2A2OFUFa/NgRvpt8rXs/uguHYavG3pfy0geBiA==
   dependencies:
-    "@structured-types/api" "^3.39.6"
+    "@structured-types/api" "^3.40.0"
 
-"@structured-types/typescript-config@^3.39.6":
-  version "3.39.6"
-  resolved "https://registry.yarnpkg.com/@structured-types/typescript-config/-/typescript-config-3.39.6.tgz#1727ec7cf834b7d0b584e1f4ab836fc7f2f7477c"
-  integrity sha512-l3KIhSKp4Q2Jcqcu7SSl6ssnDFYIct5XtSw4Hd4whCSCNfxWjClvCYmcN/7vcLtk5P7g7biiTe5BxjBIyI27qg==
+"@structured-types/typescript-config@^3.40.0":
+  version "3.40.0"
+  resolved "https://registry.yarnpkg.com/@structured-types/typescript-config/-/typescript-config-3.40.0.tgz#d78afeb8931d2e4b848655b117deeb95dd5c02a8"
+  integrity sha512-szwhewxLlccndYprAhRH7LPXYiW2DATSED+W+C+PfKDvGZ39G3oNwpYaFUUg4cQcXwob3+J96inCxFV3i4gLgA==
   dependencies:
     deepmerge "^4.2.2"
     path-browserify "^1.0.1"
@@ -2794,10 +2794,10 @@ type-fest@^0.20.2:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.20.2.tgz#1bf207f4b28f91583666cb5fbd327887301cd5f4"
   integrity sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==
 
-typescript@^4.2.4:
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.2.tgz#8ac1fba9f52256fdb06fb89e4122fa6a346c2998"
-  integrity sha512-5BlMof9H1yGt0P8/WF+wPNw6GfctgGjXp5hkblpyT+8rkASSmkUKMXrxR0Xg8ThVCi/JnHQiKXeBaEwCeQwMFw==
+typescript@^4.5.0:
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.4.tgz#a17d3a0263bf5c8723b9c52f43c5084edf13c2e8"
+  integrity sha512-VgYs2A2QIRuGphtzFV7aQJduJ2gyfTljngLzjpfW9FoYZF6xuw1W0vW9ghCKLfcWrCFxK81CSGRAvS1pn4fIUg==
 
 unbox-primitive@^1.0.1:
   version "1.0.1"
