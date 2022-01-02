@@ -450,10 +450,10 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@structured-types/api-docs@^3.40.0":
-  version "3.40.0"
-  resolved "https://registry.yarnpkg.com/@structured-types/api-docs/-/api-docs-3.40.0.tgz#eaac5cf449cc3ae95e76a8865d10f02905fb693e"
-  integrity sha512-z7hXRHOOdVssniUS5AIDZTxP7YPqXKAwQuiVxGPpEKdk1MugquZ9ZraotDjCgJVjdkjaSOJvWKTXoYUZTvl3eA==
+"@structured-types/api-docs@^3.40.2":
+  version "3.40.2"
+  resolved "https://registry.yarnpkg.com/@structured-types/api-docs/-/api-docs-3.40.2.tgz#61cfd790c702632a929554f1f24365c22d767de4"
+  integrity sha512-GZ4C6dl20G55qL8WSmnLG0IwRfPoRBFyhNkIFytTq132IcNdZA8bYEXYIfl3DjKT6Pn8w7/9285xwjBLAHMQDQ==
   dependencies:
     "@hutson/parse-repository-url" "^5.0.0"
     deepmerge "^4.2.2"
@@ -463,15 +463,15 @@
     micromatch "^4.0.4"
     path-browserify "^1.0.1"
 
-"@structured-types/api-readme@^3.40.0":
-  version "3.40.0"
-  resolved "https://registry.yarnpkg.com/@structured-types/api-readme/-/api-readme-3.40.0.tgz#199ce4d2e9727fcf3d8ffd6e535a1670b3e1baf3"
-  integrity sha512-YnVnH56CFyO0u3XBUxhj+HNFg4uJqvkqFFQw08NKc1pL6VVGsaTad4j3e2prfCXd/vQee2RON87qipBTtQUvrA==
+"@structured-types/api-readme@^3.40.2":
+  version "3.40.2"
+  resolved "https://registry.yarnpkg.com/@structured-types/api-readme/-/api-readme-3.40.2.tgz#4d8e73d729b7d0424ca8f68ce144fbdae6be7e48"
+  integrity sha512-96/9wYSH0k0BZnr2lrj62bUr+r3EtR3hZrzLEoodpaO2WwUSBx1VM0Re8r/Ja2uBQJBQOjKiIw46C6ErGWW8hA==
   dependencies:
-    "@structured-types/api" "^3.40.0"
-    "@structured-types/api-docs" "^3.40.0"
-    "@structured-types/prop-types-plugin" "^3.40.0"
-    "@structured-types/react-plugin" "^3.40.0"
+    "@structured-types/api" "^3.40.2"
+    "@structured-types/api-docs" "^3.40.2"
+    "@structured-types/prop-types-plugin" "^3.40.2"
+    "@structured-types/react-plugin" "^3.40.2"
     chalk "^4.1.0"
     js-string-escape "^1.0.1"
     remark "^11.0.2"
@@ -480,28 +480,28 @@
     unified "^9.0.0"
     yargs "^15.3.1"
 
-"@structured-types/api@^3.40.0":
-  version "3.40.0"
-  resolved "https://registry.yarnpkg.com/@structured-types/api/-/api-3.40.0.tgz#874bf3e6aa058f0d491f307b20946e21fefb815e"
-  integrity sha512-+QuVjVdcl762V24CdMf8o5KIb0UXSFnrxZhZVn0TSU/IPOxpF228oZYMU9UkpX7hhSdSHNmVjrr5sQ6TKfPdQQ==
+"@structured-types/api@^3.40.2":
+  version "3.40.2"
+  resolved "https://registry.yarnpkg.com/@structured-types/api/-/api-3.40.2.tgz#2212d16db71b06ad81908b42c7b180c6a6c85625"
+  integrity sha512-zyYJNLtNThM4dNd/2sqyi3ofGaNQkB4mBjGwvH83Mi1kqwxfpXQbyBCLjUMXWKP5IpAtMxzXQ5tJeOLynkAlWQ==
   dependencies:
     "@structured-types/typescript-config" "^3.40.0"
     deepmerge "^4.2.2"
     path-browserify "^1.0.1"
 
-"@structured-types/prop-types-plugin@^3.40.0":
-  version "3.40.0"
-  resolved "https://registry.yarnpkg.com/@structured-types/prop-types-plugin/-/prop-types-plugin-3.40.0.tgz#4e40e377b54f05c2c6eb23df9ca67d094420cddf"
-  integrity sha512-9yjzzUubp1qr1blHKl4pCFdUDtrfWK3gUd4ed8k2BXrBld8fcnMhV4nyNiXjPyyD6hplUgXxsrTb7cRF7o3D7w==
+"@structured-types/prop-types-plugin@^3.40.2":
+  version "3.40.2"
+  resolved "https://registry.yarnpkg.com/@structured-types/prop-types-plugin/-/prop-types-plugin-3.40.2.tgz#7af148bba2c5cc015b7812c12e94d716f5709dd0"
+  integrity sha512-qPpkw2Kv0ligeamjRfQInM/VV9HUxxhAOvQkDZw1z8aFnc31ds+TO9qU/LIFa8CE2aVt87kyNplbtcp0oYIeFw==
   dependencies:
-    "@structured-types/react-plugin" "^3.40.0"
+    "@structured-types/react-plugin" "^3.40.2"
 
-"@structured-types/react-plugin@^3.40.0":
-  version "3.40.0"
-  resolved "https://registry.yarnpkg.com/@structured-types/react-plugin/-/react-plugin-3.40.0.tgz#b670a64e4de9318275e7468a4871eaa8b7332ad1"
-  integrity sha512-MnIZV78mjRuVUrYbMSBwkv9hCGSrs0eFGGiZeu7FIzE9TWeN2A2OFUFa/NgRvpt8rXs/uguHYavG3pfy0geBiA==
+"@structured-types/react-plugin@^3.40.2":
+  version "3.40.2"
+  resolved "https://registry.yarnpkg.com/@structured-types/react-plugin/-/react-plugin-3.40.2.tgz#f0be03957d47992901257e9ea91a84bc33113c96"
+  integrity sha512-v/FKHhv69HSBwZE6K+DtTdExnZc2sOU4HnWIgqz3OJ4EgyUWm0B4TkhrT1fyiJH70ikH6KmiDq588oQFS7XfiA==
   dependencies:
-    "@structured-types/api" "^3.40.0"
+    "@structured-types/api" "^3.40.2"
 
 "@structured-types/typescript-config@^3.40.0":
   version "3.40.0"
