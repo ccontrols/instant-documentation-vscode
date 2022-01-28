@@ -63,7 +63,7 @@
     "@structured-types/api-readme": "^3.44.3",
     "@structured-types/prop-types-plugin": "^3.44.3",
     "@structured-types/react-plugin": "^3.44.3",
-    "@vscode/webview-ui-toolkit": "^0.8.4",
+    "@vscode/webview-ui-toolkit": "^0.9.0",
     "deepmerge": "^4.2.2",
     "inherits": "^2.0.4",
     "path-browserify": "^1.0.1",

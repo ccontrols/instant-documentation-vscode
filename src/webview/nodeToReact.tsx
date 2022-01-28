@@ -15,6 +15,11 @@ import {
   isBlockNode,
   isCollapsibleNode,
 } from '@structured-types/api-docs/dist/types';
+import {
+  VSCodeDataGrid,
+  VSCodeDataGridRow,
+  VSCodeDataGridCell,
+} from '@vscode/webview-ui-toolkit/react';
 import { VSCodeAPI } from './VSCodeApi';
 const renderNode = (props: {
   node: DocumentationNode;
@@ -112,37 +117,37 @@ const renderNode = (props: {
     return node.value || '';
   } else if (isTableNode(node)) {
     const table = node.children ? (
-      <vscode-data-grid
+      <VSCodeDataGrid
         grid-template-columns={node.children[0].children
           .map(() => '1fr')
           .join(' ')}
         key={key}
       >
-        <vscode-data-grid-row row-type="header">
+        <VSCodeDataGridRow row-type="header">
           {node.children[0].children?.map((cell, idx) => (
-            <vscode-data-grid-cell
+            <VSCodeDataGridCell
               grid-column={(idx + 1).toString()}
               cell-type="columnheader"
               key={`head_${idx}`}
             >
               {nodeContent({ node: cell, inTree })}
-            </vscode-data-grid-cell>
+            </VSCodeDataGridCell>
           ))}
-        </vscode-data-grid-row>
+        </VSCodeDataGridRow>
 
         {node.children.slice(1).map((row, index) => (
-          <vscode-data-grid-row key={`row_${index}`}>
+          <VSCodeDataGridRow key={`row_${index}`}>
             {row.children?.map((cell, idx) => (
-              <vscode-data-grid-cell
+              <VSCodeDataGridCell
                 grid-column={(idx + 1).toString()}
                 key={`head_${idx}`}
               >
                 {nodeContent({ node: cell, inTree })}
-              </vscode-data-grid-cell>
+              </VSCodeDataGridCell>
             ))}
-          </vscode-data-grid-row>
+          </VSCodeDataGridRow>
         ))}
-      </vscode-data-grid>
+      </VSCodeDataGrid>
     ) : null;
     return table;
   }

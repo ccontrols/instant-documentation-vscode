@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import { VSCodeProgressRing } from '@vscode/webview-ui-toolkit/react';
+import { DocumentationNode } from '@structured-types/api-docs/dist/types';
 import { VSCodeAPI } from './VSCodeApi';
 import { renderNodes } from './nodeToReact';
-import { DocumentationNode } from '@structured-types/api-docs/dist/types';
+
 import { Flex } from './components/Flex';
 
 export const App: React.FC = () => {
@@ -20,7 +22,7 @@ export const App: React.FC = () => {
         renderNodes(nodes)
       ) : (
         <Flex>
-          <vscode-progress-ring />
+          <VSCodeProgressRing />
         </Flex>
       )}
     </section>
