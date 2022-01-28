@@ -55,7 +55,9 @@
   "readme": "./README.md",
   "icon": "logo.instadoc.png",
   "dependencies": {
-    "@microsoft/fast-components": "^2.16.3",
+    "@microsoft/fast-components": "^2.20.0",
+    "@microsoft/fast-element": "^1.7.0",
+    "@microsoft/fast-foundation": "^2.32.1",
     "@structured-types/api": "^3.44.3",
     "@structured-types/api-docs": "^3.44.3",
     "@structured-types/api-readme": "^3.44.3",

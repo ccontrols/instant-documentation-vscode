@@ -337,15 +337,15 @@
   resolved "https://registry.yarnpkg.com/@microsoft/fast-colors/-/fast-colors-5.1.4.tgz#9268dd9010d5c11161697196aaa86958191cbee4"
   integrity sha512-+0ZVfZ04627buD8ZK8k84FpZom85vU0qUoRtcnFQm6AG5MIWcRE8m5ybJlMIjv2LIJcI/q7tjl+ruKBpWaqwJQ==
 
-"@microsoft/fast-components@^2.16.3":
-  version "2.16.5"
-  resolved "https://registry.yarnpkg.com/@microsoft/fast-components/-/fast-components-2.16.5.tgz#afaee3fc8a07e6d1704510781948da6e3cb980e5"
-  integrity sha512-tVq87w0vf1/k10NHZnUakCGJsroSXD5YX62D6GDJbCPDMnEmrKQdJNNu/zb/QS8qT1LrKVyiRZd6FTkIfR3WuQ==
+"@microsoft/fast-components@^2.20.0":
+  version "2.20.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/fast-components/-/fast-components-2.20.0.tgz#ffb2452482b629aae790bc224c24453455fc61b1"
+  integrity sha512-O9iPnFfLQ+55n2UDh7K/dCiU3l8579nbiLiC1T8kqDn6Y2yVj4mvRZZ0bk4ltWNDePZl+S6tk6OKtgu+OGreLg==
   dependencies:
     "@microsoft/fast-colors" "^5.1.4"
-    "@microsoft/fast-element" "^1.6.2"
-    "@microsoft/fast-foundation" "^2.27.0"
-    "@microsoft/fast-web-utilities" "^5.0.2"
+    "@microsoft/fast-element" "^1.7.0"
+    "@microsoft/fast-foundation" "^2.32.1"
+    "@microsoft/fast-web-utilities" "^5.1.0"
     tslib "^1.13.0"
     vscode-html-languageservice "^4.0.3"
 
@@ -354,7 +354,12 @@
   resolved "https://registry.yarnpkg.com/@microsoft/fast-element/-/fast-element-1.6.2.tgz#414abc9f49fde85e12002e01025c5cc3dddc16ac"
   integrity sha512-TrFOpe9k9xIK2iLfIG5T2+bavUAWBvAC/KQ/3ecFsK65l9PAZ/j3zlkyLxNrpIksFtUBkfVdV03kwFurZjqzKQ==
 
-"@microsoft/fast-foundation@^2.21.0", "@microsoft/fast-foundation@^2.27.0":
+"@microsoft/fast-element@^1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/fast-element/-/fast-element-1.7.0.tgz#7e4b164c77c07d93b28f057231b37e7e2e8fed04"
+  integrity sha512-2qpAWuiOSdQfH/XdO8ZtVhlvQVCjHlojWUPoGbvHJDizBccZib+4uGReG87RIBp2Fi0s7ngYPRUioS1Lr+Xe0A==
+
+"@microsoft/fast-foundation@^2.21.0":
   version "2.27.0"
   resolved "https://registry.yarnpkg.com/@microsoft/fast-foundation/-/fast-foundation-2.27.0.tgz#ea273db991df608e02207755f25e3e515e67d9b9"
   integrity sha512-pA+N1uaf3Ebv0UVji9gk2+oix8oWP1BdI7whEWOn+Zha5wISSDBbpUR4IceFrf269w4bQ/ga7xv8s/r0JeNiOw==
@@ -364,10 +369,27 @@
     tabbable "^5.2.0"
     tslib "^1.13.0"
 
+"@microsoft/fast-foundation@^2.32.1":
+  version "2.32.1"
+  resolved "https://registry.yarnpkg.com/@microsoft/fast-foundation/-/fast-foundation-2.32.1.tgz#371462f7569266a5d86f5813f3047144f7e8a52b"
+  integrity sha512-X+rXtPezZJAbHFx/3LxvpjrVKjw9RGa8UhM8Q6CJbhD6Kgi0zNpCRb1h+fUkMIra5DmhXAaGBKrGEtHDSRsYAw==
+  dependencies:
+    "@microsoft/fast-element" "^1.7.0"
+    "@microsoft/fast-web-utilities" "^5.1.0"
+    tabbable "^5.2.0"
+    tslib "^1.13.0"
+
 "@microsoft/fast-web-utilities@^5.0.2":
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/@microsoft/fast-web-utilities/-/fast-web-utilities-5.0.2.tgz#666631e38108893e4ec63cd8f52025f5f35a34a1"
   integrity sha512-J8Wy64V1NWF/UjFJ1mvmJNNPChbWobsNkJ8xNaV5/M+VKOQEOheojrOS+RmOUG7DKTBlCLIbUvyXsj1YiCfwkA==
+  dependencies:
+    exenv-es6 "^1.0.0"
+
+"@microsoft/fast-web-utilities@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/fast-web-utilities/-/fast-web-utilities-5.1.0.tgz#e060fea2b47c2dcfb4a9ba90a55559f0844d1cdb"
+  integrity sha512-S2PCxI4XqtIxLM1N7i/NuIAgx+mJM01+mDzyB3vZlYibAkOT0bzp5YZCp+coXowokSin/nK5T2kqShMXEzI6Jg==
   dependencies:
     exenv-es6 "^1.0.0"
 
